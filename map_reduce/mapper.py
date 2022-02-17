@@ -5,7 +5,7 @@ import re
 for line in sys.stdin:
 	#remove leading and trailing whitespaces
 	line=line.strip()
-	#split words into lines
+	#split lines into words
 	words=line.split()
 
 	for word in words:
